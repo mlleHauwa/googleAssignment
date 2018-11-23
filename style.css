@@ -1,0 +1,244 @@
+body{
+	font-family: arial,sans-serif;
+	font-size: small;
+	background-color: #fff;
+	color: #222;
+	min-height: 100%;
+	min-width:1000px;        
+	width: auto !important;
+	width:1000px;
+}
+
+div, nav, footer{
+	display: block;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover, a:focus{
+	text-decoration: underline;
+}
+
+ul{
+	list-style: none;
+}
+
+input, #nav-item-container {
+	display: inline-block;
+	margin-top: 20px;
+}
+
+main{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+input[type="text"] {
+    vertical-align: middle;
+    line-height: 34px;
+    font-size: 16px;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 auto;
+    padding-left: 12px;
+    padding-top: 6px;
+    width: 420px;
+    height: 34px !important;;
+    border-style: none;
+}
+
+input[type="submit"] {
+	height: 36px;
+	background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+input[type="submit"]:hover {
+	color: #222;
+	border: 1px solid #ccc;
+}
+
+footer {
+	position: absolute;
+	width: 100%;
+	min-width:1000px; 
+	bottom: 0;
+
+}
+
+.nav-item {
+	display: inline;
+	margin: 5px;
+	font-size: 13px;
+
+}
+
+.text-container {
+	padding: 18px;
+	display: inline-block;
+    line-height: 28px;
+    text-align: -webkit-center;
+}
+
+.footer {
+    background-color: #f2f2f2;
+    color: rgba(0,0,0,.54);
+    overflow-x: hidden;
+}
+
+.bottom-footer {
+	display: inline-block;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: #717171;
+}
+
+.bottom-footer a{
+	color: #717171;
+	font: 13px;
+}
+
+#wrapper{
+	min-width:1000px;        
+	width: auto !important;
+}
+
+#nav {
+	float: right;
+	margin-top: -15px;
+	padding-bottom: 5px;
+}
+
+#nav a, footer a {
+	color: #222;
+}
+
+#grid {
+	display: inline-block;
+    outline: none;
+    vertical-align: middle;
+	box-sizing: border-box;
+    height: 25px;
+    width: 25px;
+}
+
+#sign-in{
+	border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    color: #ffffff;
+    background: #4285f4;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    display: inline-block;
+    line-height: 28px;
+    padding: 0 12px;
+    margin-right: 20px;
+    margin-left: 10px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+#sign-in:pressed{
+	-webkit-box-shadow: 0px 3px -webkit-linear-gradient(top,#4387fd,#4683ea);
+}
+
+#google-logo-container {
+	margin-top: 50px;
+	padding-bottom: 20px;
+    padding-top: 100px;
+}
+
+#google-logo{
+	width: 272px;
+	height: 92px;
+}
+
+#search{
+    background: #fff;
+	width: 584px;
+	line-height: 34px;
+    height: 44px !important;
+    display: flex;
+    border-radius: 2px;
+    border: none;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    z-index: 3;
+    -webkit-tap-highlight-color: transparent;
+}
+
+#search:hover {
+	box-shadow: 0 3px 5px #d9d9d9;
+}
+
+#search-box:focus{
+	outline: none;
+}
+
+#voice-search{
+	flex: 0 0 auto;
+    display: flex;
+    margin-top: 10px;
+    margin-right: 104px;
+	align-items: stretch;
+	flex-direction: row;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    padding-left: 125px;
+    width: 24px;
+    line-height: 44px;
+}
+
+#button-container {
+	padding-top: 18px;
+	width: 487px;
+	height: 58px;
+}
+
+#top-footer {
+	padding-left: 30px;
+    border-bottom: .25px solid  rgba(0,0,0,.54);
+    line-height: 40px;
+    font-size: 15px;
+}
+
+#footer-right {
+	display: inline-block;
+	float: right;
+}
+
+#footer-right li {
+	display: inline;
+	margin-right: 15px;
+	margin-left: 15px;
+	color: rgba(0,0,0,.54);
+}
+
+#footer-left {
+	display: inline-block;
+	margin-left: -50px;
+}
+
+#footer-right li {
+	display: inline;
+	margin-right: 15px;
+	margin-left: 15px;
+	color: rgba(0,0,0,.54);
+}
